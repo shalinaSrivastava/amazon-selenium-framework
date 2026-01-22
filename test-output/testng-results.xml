@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="7" passed="6" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-01-21T18:04:25 MST" name="Suite" finished-at="2026-01-21T18:10:03 MST" duration-ms="338477">
+    <groups>
+      <group name="regression">
+        <method signature="AddToCartTest.verifyAddToCartFromProductPage(java.lang.String)[pri:0, instance:tests.addtocart.AddToCartTest@4fa1c212]" name="verifyAddToCartFromProductPage" class="tests.addtocart.AddToCartTest"/>
+        <method signature="CartTest.cart(java.lang.String)[pri:0, instance:tests.cart.CartTest@6ea2bc93]" name="cart" class="tests.cart.CartTest"/>
+        <method signature="GuestCheckoutTest.verifyGuestCheckoutRedirectsToSignIn(java.lang.String)[pri:0, instance:tests.checkout.GuestCheckoutTest@3116c353]" name="verifyGuestCheckoutRedirectsToSignIn" class="tests.checkout.GuestCheckoutTest"/>
+        <method signature="SearchProductTest.verifySearchProduct(java.lang.String)[pri:0, instance:tests.search.SearchProductTest@93081b6]" name="verifySearchProduct" class="tests.search.SearchProductTest"/>
+        <method signature="AddToCartTest.verifyAddToCartFromProductPage(java.lang.String)[pri:0, instance:tests.addtocart.AddToCartTest@1187c9e8]" name="verifyAddToCartFromProductPage" class="tests.addtocart.AddToCartTest"/>
+        <method signature="GuestCheckoutTest.verifyGuestCheckoutRedirectsToSignIn(java.lang.String)[pri:0, instance:tests.checkout.GuestCheckoutTest@127a7a2e]" name="verifyGuestCheckoutRedirectsToSignIn" class="tests.checkout.GuestCheckoutTest"/>
+        <method signature="SearchProductTest.verifySearchProduct(java.lang.String)[pri:0, instance:tests.search.SearchProductTest@4b34fff9]" name="verifySearchProduct" class="tests.search.SearchProductTest"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="AddToCartTest.verifyAddToCartFromProductPage(java.lang.String)[pri:0, instance:tests.addtocart.AddToCartTest@4fa1c212]" name="verifyAddToCartFromProductPage" class="tests.addtocart.AddToCartTest"/>
+        <method signature="GuestCheckoutTest.verifyGuestCheckoutRedirectsToSignIn(java.lang.String)[pri:0, instance:tests.checkout.GuestCheckoutTest@3116c353]" name="verifyGuestCheckoutRedirectsToSignIn" class="tests.checkout.GuestCheckoutTest"/>
+        <method signature="SearchProductTest.verifySearchProduct(java.lang.String)[pri:0, instance:tests.search.SearchProductTest@93081b6]" name="verifySearchProduct" class="tests.search.SearchProductTest"/>
+        <method signature="AddToCartTest.verifyAddToCartFromProductPage(java.lang.String)[pri:0, instance:tests.addtocart.AddToCartTest@1187c9e8]" name="verifyAddToCartFromProductPage" class="tests.addtocart.AddToCartTest"/>
+        <method signature="GuestCheckoutTest.verifyGuestCheckoutRedirectsToSignIn(java.lang.String)[pri:0, instance:tests.checkout.GuestCheckoutTest@127a7a2e]" name="verifyGuestCheckoutRedirectsToSignIn" class="tests.checkout.GuestCheckoutTest"/>
+        <method signature="SearchProductTest.verifySearchProduct(java.lang.String)[pri:0, instance:tests.search.SearchProductTest@4b34fff9]" name="verifySearchProduct" class="tests.search.SearchProductTest"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test started-at="2026-01-21T18:04:25 MST" name="Regression" finished-at="2026-01-21T18:08:13 MST" duration-ms="228719">
+      <class name="tests.addtocart.AddToCartTest">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:tests.addtocart.AddToCartTest@4fa1c212]" started-at="2026-01-21T18:04:44 MST" name="setUp" finished-at="2026-01-21T18:04:49 MST" duration-ms="4768" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyAddToCartFromProductPage(java.lang.String)[pri:0, instance:tests.addtocart.AddToCartTest@4fa1c212]" started-at="2026-01-21T18:04:49 MST" name="verifyAddToCartFromProductPage" data-provider="productSmoke" finished-at="2026-01-21T18:05:48 MST" duration-ms="59020" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mobile]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAddToCartFromProductPage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.addtocart.AddToCartTest@4fa1c212]" started-at="2026-01-21T18:05:48 MST" name="tearDown" finished-at="2026-01-21T18:05:49 MST" duration-ms="1194" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.addtocart.AddToCartTest -->
+      <class name="tests.search.SearchProductTest">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:tests.search.SearchProductTest@93081b6]" started-at="2026-01-21T18:04:25 MST" name="setUp" finished-at="2026-01-21T18:04:29 MST" duration-ms="4116" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifySearchProduct(java.lang.String)[pri:0, instance:tests.search.SearchProductTest@93081b6]" started-at="2026-01-21T18:04:29 MST" name="verifySearchProduct" data-provider="productSmoke" finished-at="2026-01-21T18:04:43 MST" duration-ms="13994" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mobile]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchProduct -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.search.SearchProductTest@93081b6]" started-at="2026-01-21T18:04:43 MST" name="tearDown" finished-at="2026-01-21T18:04:44 MST" duration-ms="1392" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.search.SearchProductTest -->
+      <class name="tests.checkout.GuestCheckoutTest">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:tests.checkout.GuestCheckoutTest@3116c353]" started-at="2026-01-21T18:06:53 MST" name="setUp" finished-at="2026-01-21T18:06:56 MST" duration-ms="3585" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyGuestCheckoutRedirectsToSignIn(java.lang.String)[pri:0, instance:tests.checkout.GuestCheckoutTest@3116c353]" started-at="2026-01-21T18:06:56 MST" name="verifyGuestCheckoutRedirectsToSignIn" data-provider="productSmoke" finished-at="2026-01-21T18:08:12 MST" duration-ms="75506" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mobile]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyGuestCheckoutRedirectsToSignIn -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.checkout.GuestCheckoutTest@3116c353]" started-at="2026-01-21T18:08:12 MST" name="tearDown" finished-at="2026-01-21T18:08:13 MST" duration-ms="1650" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.checkout.GuestCheckoutTest -->
+      <class name="tests.cart.CartTest">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:tests.cart.CartTest@6ea2bc93]" started-at="2026-01-21T18:05:49 MST" name="setUp" finished-at="2026-01-21T18:05:53 MST" duration-ms="3896" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="cart(java.lang.String)[pri:0, instance:tests.cart.CartTest@6ea2bc93]" started-at="2026-01-21T18:05:53 MST" name="cart" data-provider="productSmoke" finished-at="2026-01-21T18:06:52 MST" duration-ms="58821" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mobile]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cart -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.cart.CartTest@6ea2bc93]" started-at="2026-01-21T18:06:52 MST" name="tearDown" finished-at="2026-01-21T18:06:53 MST" duration-ms="588" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.cart.CartTest -->
+    </test> <!-- Regression -->
+    <test started-at="2026-01-21T18:08:15 MST" name="Smoke" finished-at="2026-01-21T18:10:03 MST" duration-ms="108112">
+      <class name="tests.addtocart.AddToCartTest">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:tests.addtocart.AddToCartTest@1187c9e8]" started-at="2026-01-21T18:08:44 MST" name="setUp" finished-at="2026-01-21T18:08:48 MST" duration-ms="4509" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyAddToCartFromProductPage(java.lang.String)[pri:0, instance:tests.addtocart.AddToCartTest@1187c9e8]" started-at="2026-01-21T18:08:48 MST" name="verifyAddToCartFromProductPage" data-provider="productSmoke" finished-at="2026-01-21T18:09:44 MST" duration-ms="55698" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mobile]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAddToCartFromProductPage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.addtocart.AddToCartTest@1187c9e8]" started-at="2026-01-21T18:09:44 MST" name="tearDown" finished-at="2026-01-21T18:09:44 MST" duration-ms="466" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.addtocart.AddToCartTest -->
+      <class name="tests.search.SearchProductTest">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:tests.search.SearchProductTest@4b34fff9]" started-at="2026-01-21T18:08:15 MST" name="setUp" finished-at="2026-01-21T18:08:21 MST" duration-ms="6324" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifySearchProduct(java.lang.String)[pri:0, instance:tests.search.SearchProductTest@4b34fff9]" started-at="2026-01-21T18:08:21 MST" name="verifySearchProduct" data-provider="productSmoke" finished-at="2026-01-21T18:08:42 MST" duration-ms="20866" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mobile]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchProduct -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.search.SearchProductTest@4b34fff9]" started-at="2026-01-21T18:08:42 MST" name="tearDown" finished-at="2026-01-21T18:08:44 MST" duration-ms="1402" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.search.SearchProductTest -->
+      <class name="tests.checkout.GuestCheckoutTest">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:tests.checkout.GuestCheckoutTest@127a7a2e]" started-at="2026-01-21T18:09:44 MST" name="setUp" finished-at="2026-01-21T18:09:47 MST" duration-ms="2397" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyGuestCheckoutRedirectsToSignIn(java.lang.String)[pri:0, instance:tests.checkout.GuestCheckoutTest@127a7a2e]" started-at="2026-01-21T18:09:47 MST" name="verifyGuestCheckoutRedirectsToSignIn" data-provider="productSmoke" finished-at="2026-01-21T18:10:02 MST" duration-ms="15473" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mobile]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.id: twotabsearchtextbox' (tried for 15 second(s) with 500 milliseconds interval)]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.id: twotabsearchtextbox' (tried for 15 second(s) with 500 milliseconds interval)
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+at pages.HomePage.searchProduct(HomePage.java:49)
+at tests.checkout.GuestCheckoutTest.addOneItem(GuestCheckoutTest.java:20)
+at tests.checkout.GuestCheckoutTest.verifyGuestCheckoutRedirectsToSignIn(GuestCheckoutTest.java:35)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#twotabsearchtextbox"}
+  (Session info: chrome=143.0.7499.193)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.38.0', revision: '6b412e825c*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d5ac5fe0cb2c5a0811ba5b7b0bcdb805, findElement {using=id, value=twotabsearchtextbox}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.193, chrome: {chromedriverVersion: 143.0.7499.192 (be2c1f4fd45..., userDataDir: C:\Users\sharm\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63061}, goog:processID: 10332, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63061/devtoo..., se:cdpVersion: 143.0.7499.193, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d5ac5fe0cb2c5a0811ba5b7b0bcdb805
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:557)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:380)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:374)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy17.isDisplayed(Unknown Source)
+at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:308)
+at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:294)
+at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:291)
+at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:662)
+at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:658)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203)
+... 29 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyGuestCheckoutRedirectsToSignIn -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.checkout.GuestCheckoutTest@127a7a2e]" started-at="2026-01-21T18:10:03 MST" name="tearDown" finished-at="2026-01-21T18:10:03 MST" duration-ms="443" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.checkout.GuestCheckoutTest -->
+    </test> <!-- Smoke -->
+  </suite> <!-- Suite -->
+</testng-results>

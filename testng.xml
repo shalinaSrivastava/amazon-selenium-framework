@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" verbose="2">
+
+<listeners>
+    <listener class-name="listeners.TestListener"/>
+    <listener class-name="listeners.ExtentTestListener"/>
+</listeners>
+
+
+  <test name="Regression">
+    <groups>
+      <run>
+        <include name="regression"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="tests.search.SearchProductTest"/>
+      <class name="tests.addtocart.AddToCartTest"/>
+      <class name="tests.cart.CartTest"/>
+      <class name="tests.checkout.GuestCheckoutTest"/>
+    </classes>
+  </test>
+
+  <test name="Smoke">
+    <groups>
+      <run>
+        <include name="smoke"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="tests.search.SearchProductTest"/>
+      <class name="tests.addtocart.AddToCartTest"/>
+      <class name="tests.checkout.GuestCheckoutTest"/>
+    </classes>
+  </test>
+
+</suite>
