@@ -1,13 +1,12 @@
-# 🛒 Amazon Selenium Automation Project
+#  Amazon Selenium Automation Project
 
 ## Project Overview
 
-This project is an end-to-end UI automation framework built using **Java, Selenium WebDriver, TestNG, and Page Object Model (POM)**.
+This project is an end-to-end UI automation framework built using Java, Selenium WebDriver, TestNG, and Page Object Model (POM).
 It automates major user flows on an Amazon-like e-commerce website including search, add to cart, cart operations, and checkout.
 
 The framework is designed using real industry standards and best practices.
 
----
 
 ## Tech Stack
 
@@ -202,12 +201,11 @@ This project demonstrates:
 
 ##  Author
 
-Name - Shalina Srivastava
-QA Automation Enthusiast
-Java | Selenium | TestNG | Manual + Automation Testing
-
+Shalina Srivastava 
+QA Automation Engineer | Selenium & Java  
+Focused on building scalable test automation frameworks using Selenium WebDriver, TestNG, and POM.
 
 - CI/CD Integration (Jenkins)
 - Extent Reports
-* Excel-driven data testing
-* Parallel execution optimization
+- Excel-driven data testing
+- Parallel execution optimization
